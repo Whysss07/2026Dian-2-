@@ -1,0 +1,101 @@
+{
+  "bin": {},
+  "pkg-build": {
+    "C:\\Users\\wh070\\Documents\\New project\\midi_task\\work\\src": {
+      "package": "midi",
+      "isMacro": false,
+      "accessLevel": "public",
+      "timeStamp": 1774414934,
+      "dependencies": [
+        {
+          "orPackage": "",
+          "package": "std.collection",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "C:\\Users\\wh070\\Documents\\New project\\midi_task\\work\\src\\encoder.cj"
+            },
+            {
+              "file": "C:\\Users\\wh070\\Documents\\New project\\midi_task\\work\\src\\main.cj"
+            },
+            {
+              "file": "C:\\Users\\wh070\\Documents\\New project\\midi_task\\work\\src\\midi_event.cj"
+            },
+            {
+              "file": "C:\\Users\\wh070\\Documents\\New project\\midi_task\\work\\src\\parser.cj"
+            },
+            {
+              "file": "C:\\Users\\wh070\\Documents\\New project\\midi_task\\work\\src\\verifier.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.fs",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "C:\\Users\\wh070\\Documents\\New project\\midi_task\\work\\src\\main.cj"
+            },
+            {
+              "file": "C:\\Users\\wh070\\Documents\\New project\\midi_task\\work\\src\\verifier.cj"
+            }
+          ]
+        }
+      ],
+      "std-dependencies": [
+        {
+          "std.binary": [
+            "std.core"
+          ]
+        },
+        {
+          "std.collection": [
+            "std.core",
+            "std.math"
+          ]
+        },
+        {
+          "std.convert": [
+            "std.core"
+          ]
+        },
+        {
+          "std.core": []
+        },
+        {
+          "std.fs": [
+            "std.collection",
+            "std.core",
+            "std.io",
+            "std.time"
+          ]
+        },
+        {
+          "std.io": [
+            "std.core"
+          ]
+        },
+        {
+          "std.math": [
+            "std.core"
+          ]
+        },
+        {
+          "std.time": [
+            "std.binary",
+            "std.collection",
+            "std.convert",
+            "std.core",
+            "std.io"
+          ]
+        }
+      ],
+      "features": [],
+      "product": true,
+      "testUsed": false,
+      "mockUsed": false
+    }
+  },
+  "pkg-test": {}
+}

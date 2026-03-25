@@ -1,0 +1,73 @@
+warning[0m: unused function:'bytesToHex'
+  ==> C:\Users\wh070\Documents\New project\midi_task\work\src\verifier.cj:18:1:
+   | 
+18 |   public func bytesToHex(data: Array<UInt8>): String {
+   |  _^
+19 | |     let sb = StringBuilder()
+   | | ...
+27 | | }
+   | |_^ unused function
+   | 
+   # note: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+warning[0m: unused function:'verifyMThd'
+  ==> C:\Users\wh070\Documents\New project\midi_task\work\src\verifier.cj:29:1:
+   | 
+29 |   public func verifyMThd(data: Array<UInt8>, expectedFormat: UInt16, expectedTracks: UInt16): Bool {
+   |  _^
+30 | |     if (data.size < 14) {
+   | | ...
+58 | | }
+   | |_^ unused function
+   | 
+   # note: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+warning[0m: unused function:'extractNoteOnPitches'
+   ==> C:\Users\wh070\Documents\New project\midi_task\work\src\verifier.cj:131:1:
+    | 
+131 |   public func extractNoteOnPitches(data: Array<UInt8>): ArrayList<UInt8> {
+    |  _^
+132 | |     let pitches = ArrayList<UInt8>()
+    | | ...
+151 | | }
+    | |_^ unused function
+    | 
+    # note: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+warning[0m: unused function:'extractProgramChanges'
+   ==> C:\Users\wh070\Documents\New project\midi_task\work\src\verifier.cj:153:1:
+    | 
+153 |   public func extractProgramChanges(data: Array<UInt8>): ArrayList<UInt8> {
+    |  _^
+154 | |     let programs = ArrayList<UInt8>()
+    | | ...
+173 | | }
+    | |_^ unused function
+    | 
+    # note: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+warning[0m: unused function:'verifyTempo'
+   ==> C:\Users\wh070\Documents\New project\midi_task\work\src\verifier.cj:175:1:
+    | 
+175 |   public func verifyTempo(data: Array<UInt8>, expectedBPM: Int64): Bool {
+    |  _^
+176 | |     let expectedMicro = UInt32(60000000 / expectedBPM)
+    | | ...
+193 | | }
+    | |_^ unused function
+    | 
+    # note: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+warning[0m: unused function:'countTracks'
+   ==> C:\Users\wh070\Documents\New project\midi_task\work\src\verifier.cj:195:1:
+    | 
+195 |   public func countTracks(data: Array<UInt8>): Int64 {
+    |  _^
+196 | |     var count: Int64 = 0
+    | | ...
+208 | | }
+    | |_^ unused function
+    | 
+    # note: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+6 warnings generated, 6 warnings printed.
